@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400&display=swap');
+body{
+  margin: 0;
+  font-family: 'Martel Sans', sans-serif !important;
+}
+
+#accent-col,#boton  {
+    color: rgb(226, 105, 57);
+  }
+#boton{
+  color: #ffffff;
+  background-color: rgb(250, 142, 100);
+  border-color: rgb(97, 95, 95);
+}
+.navbar-nav >li{
+  padding:5px;
+ 
+
+}
+.navbar-nav .nav-item .nav-link {
+  color: red;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  background-color: rgb(238, 174, 148) ;
+  border-radius: 4px;
+}
